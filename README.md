@@ -40,7 +40,7 @@ eazyssh rm myserver
 
 ## 依存
 
-- [fzf](https://github.com/junegunn/cli) — ホスト選択UI
+- [fzf](https://github.com/junegunn/fzf) — ホスト選択UI
 - Node.js 20+
 
 ## ライセンス
