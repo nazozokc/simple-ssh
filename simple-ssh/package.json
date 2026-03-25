@@ -1,5 +1,5 @@
 {
-  "name": "eazyssh",
+  "name": "simple-ssh",
   "version": "0.1.0",
   "description": "A simple SSH host manager CLI",
   "type": "module",
