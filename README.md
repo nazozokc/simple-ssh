@@ -7,8 +7,8 @@
 ### npm
 
 ```bash
-git clone https://github.com/nazozokc/eazyssh
-cd eazyssh
+git clone https://github.com/nazozokc/simple-ssh
+cd simple-ssh
 npm install && npm run build
 npm link
 ```
@@ -16,7 +16,7 @@ npm link
 ### Nix
 
 ```bash
-nix run github:nazozokc/eazyssh
+nix run github:nazozokc/simple-ssh
 ```
 
 ## 使い方
