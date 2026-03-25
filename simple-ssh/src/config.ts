@@ -1,4 +1,4 @@
-import { readFile, writeFile, rename } from "fs/promises";
+import { readFile, writeFile, rename, unlink } from "fs/promises";
 import { homedir } from "os";
 import path from "path";
 import { randomBytes } from "crypto";
@@ -125,9 +125,8 @@ async function writeAtomically(filePath: string, content: string): Promise<void>
     await writeFile(tempPath, content, "utf-8");
     await rename(tempPath, filePath);
   } catch (error) {
-    // Clean up temp file on error
     try {
-      await writeFile(tempPath, "", "utf-8");
+      await unlink(tempPath);
     } catch {
       // Ignore cleanup errors
     }
