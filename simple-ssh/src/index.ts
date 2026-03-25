@@ -12,7 +12,7 @@ import { hasFzf, selectHostWithFzf, connectSsh } from "./fzf.js";
 const program = new Command();
 
 program
-  .name("eazyssh")
+  .name("simple-ssh")
   .description("A simple SSH host manager CLI")
   .version("0.1.0");
 
