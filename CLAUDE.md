@@ -5,7 +5,6 @@
 - fix: handle missing SSH config file in removeHostFromConfig
 - fix: use unlink for temp file cleanup in writeAtomically
 - fix: remove redundant try/catch in connectSsh
-=======
 # simple-ssh
 
 ## Recent Changes
